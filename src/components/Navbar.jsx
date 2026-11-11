@@ -5,14 +5,14 @@ function Navbar() {
   return (
     <nav className='nav-links'>
         <div>
-            <Link to={""} className='Link'>Find a Doctor</Link>
-            <Link to={""} className='Link'>Specialties</Link>
-            <Link to={""} className='Link'>How it works</Link>
-            <Link to={""} className='Link'>For Doctors</Link>
+            <Link to={""} className='link'>Find a Doctor</Link>
+            <Link to={""} className='link'>Specialties</Link>
+            <Link to={""} className='link'>How it works</Link>
+            <Link to={""} className='link'>For Doctors</Link>
         </div>
         <div>
-            <Link to={"/login"} className='Link auth-btn'>Log In</Link>
-            <Link to={"/register"} className='Link reg-btn'>Create Account</Link>
+            <Link to={"/login"} className='link auth-btn'>Log In</Link>
+            <Link to={"/register"} className='link reg-btn'>Create Account</Link>
         </div>
     </nav>
   )
